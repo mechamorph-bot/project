@@ -4,8 +4,10 @@
      int x;
      printf("Enter the passwoard:");
      scanf("%d",&x);
-     if(x=1234)
-        {
+     if(x==1234)
+{
+
+   printf("Welcome to my project where we do learn and improve\n");
  float a,b;
  printf("Enter the first value:");
  scanf("%f",&a);
@@ -35,10 +37,12 @@
  {
  printf("You have a given a invalid input");
  }
-        }
-        else
-        {
-            printf("You have entred the wrong passoward");
-        }
- return 0;
+}
+else
+{
+printf("You have entred the wrong passoward");
+}
+
+
+  return 0;
  }
