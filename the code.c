@@ -19,7 +19,8 @@ int main() {
     int choice, index;
     char keyword[ENTRY_LENGTH];
 
-    while (1) {
+    while (1)
+        {
         printf("\nPersonal Diary Management System\n");
         printf("1. Add Entry\n");
         printf("2. Edit Entry\n");
