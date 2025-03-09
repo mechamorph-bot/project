@@ -16,12 +16,20 @@ int main()
         scanf("%d",&arr[i]);
     }
     int small=arr[0],smallest=arr[0];
-    for(int i=1;i<n;i++)
+    for(int i=1;i<n;i++){
     if(arr[i]<smallest)
     {
         smallest=arr[i];
     }
-    printf("The smallest element is %d\n",small);
+    }
+    for (int i=0;i<n;i++)
+    if(arr[i]>smallest)
+    {
+        if(arr[i]<small){
+            small=arr[i];
+        }
+    }
+    printf("The second_small element is %d\n",small);
 
     return 0;
 }
