@@ -5,10 +5,17 @@ int main()
   char b[100];
 
 
-  printf("\n enter a string of character less than 100 with space:");
-  gets("%c",&a);
+  printf("enter a string of character less than 100 with space:");
+  gets(a);
 
-  printf("\n you have entered");
-  puts("%s",a[]);
+  printf("\n you have entered\n");
+  puts(a);
+
+
+   printf("n enter a string of character less than 100 with space:");
+  scanf("%s",&a);
+
+  printf("\n you have entered\n");
+  printf("%s",a);
 
 }
