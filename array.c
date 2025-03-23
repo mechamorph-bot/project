@@ -7,6 +7,9 @@ int main()
         printf("arr[%d]:",i);
         scanf("%d",&arr[i]);
 
+
     }
 printf("%d\n%d\n%d\n",arr[0],arr[1],arr[2]);
+
+return main();
 }
