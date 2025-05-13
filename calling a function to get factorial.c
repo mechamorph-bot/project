@@ -8,7 +8,7 @@ int factorial(int N)
     }
     return fact;
 }
-int main()
+int main() //nothing4
 {
     int X;
     scanf("%d",&X);
